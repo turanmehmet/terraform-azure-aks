@@ -1,6 +1,7 @@
 # terraform-azure-aks
 AKS
 
+create a terraform.tfvars file and use the followings
 ```
 aks_config = {
 	client_id = ""
@@ -32,3 +33,5 @@ agents_availability_zones = ["1", "2"]
 subnet_prefixes = ["10.1.0.0/24"]
 subnet_names = ["subnet1"]
 ```
+
+
